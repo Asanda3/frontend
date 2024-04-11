@@ -1,5 +1,41 @@
-{
-
-    margin : 0,
-    pading:0;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
+body{
+    background-color: rgb(29, 29, 181);
+}
+.sidebar{
+    height: 100%;
+    width: 180px;
+    position: absolute;
+    background-color: wheat;
+
+}
+h2{
+    color: rgb(31, 31, 163);
+    font-weight: 800;
+    text-align: left;
+    padding: 10px 0;
+    padding-right: 30px;
+    position: none;
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: blue;
+    font-weight: 800;
+    padding: 5px 0;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+    
+}
+li {
+    display: inline;
+  }
